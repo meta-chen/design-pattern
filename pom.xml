@@ -12,6 +12,7 @@
         <module>Static-Factory-Method</module>
         <module>Strategy-Pattern</module>
         <module>Decorator-Pattern</module>
+        <module>Proxy-Pattern</module>
     </modules>
 
     <dependencies>
