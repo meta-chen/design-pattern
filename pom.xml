@@ -11,6 +11,7 @@
     <modules>
         <module>Static-Factory-Method</module>
         <module>Strategy-Pattern</module>
+        <module>Decorator-Pattern</module>
     </modules>
 
     <dependencies>
