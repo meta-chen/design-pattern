@@ -9,7 +9,8 @@ public class Main {
         MyInvocationHandler myInvocationHandler = new MyInvocationHandler(subject);
 
         // 获取代理对象
-        Subject instance = (Subject) Proxy.newProxyInstance(myInvocationHandler.getClass().getClassLoader(), subject.getClass().getInterfaces(), myInvocationHandler);
+        // Subject instance = (Subject) Proxy.newProxyInstance(myInvocationHandler.getClass().getClassLoader(), subject.getClass().getInterfaces(), myInvocationHandler);
+        Subject instance = myInvocationHandler.getInstance();
         instance.sellBook();
         instance.speak();
 

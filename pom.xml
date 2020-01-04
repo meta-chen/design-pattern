@@ -13,6 +13,7 @@
         <module>Strategy-Pattern</module>
         <module>Decorator-Pattern</module>
         <module>Proxy-Pattern</module>
+        <module>Factory-Pattern</module>
     </modules>
 
     <dependencies>

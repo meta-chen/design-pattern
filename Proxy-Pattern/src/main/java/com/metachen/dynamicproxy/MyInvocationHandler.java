@@ -2,6 +2,7 @@ package com.metachen.dynamicproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 public class MyInvocationHandler implements InvocationHandler {
 
@@ -12,6 +13,10 @@ public class MyInvocationHandler implements InvocationHandler {
 
     public MyInvocationHandler(Subject realSubject) {
         this.realSubject = realSubject;
+    }
+
+    public Subject getInstance(){
+        return (Subject) Proxy.newProxyInstance(this.getClass().getClassLoader(),realSubject.getClass().getInterfaces(),this);
     }
 
     /**
