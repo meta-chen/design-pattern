@@ -14,6 +14,7 @@
         <module>Decorator-Pattern</module>
         <module>Proxy-Pattern</module>
         <module>Factory-Pattern</module>
+        <module>Prototype-Pattren</module>
     </modules>
 
     <dependencies>
