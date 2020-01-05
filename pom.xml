@@ -16,6 +16,8 @@
         <module>Factory-Pattern</module>
         <module>Prototype-Pattren</module>
         <module>Template-Pattren</module>
+        <module>Facade-Pattren</module>
+        <module>Builder-Pattren</module>
     </modules>
 
     <dependencies>
