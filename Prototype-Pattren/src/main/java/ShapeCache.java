@@ -5,6 +5,11 @@ public class ShapeCache {
     private static Hashtable<String, Shape> shapeMap
             = new Hashtable<String, Shape>();
 
+    /**
+     * 每次调用都会调用clone方法，返回的是复制的新对象
+     * @param shapeId
+     * @return
+     */
     public static Shape getShape(String shapeId) {
         Shape cachedShape = shapeMap.get(shapeId);
         return (Shape) cachedShape.clone();
