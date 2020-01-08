@@ -18,6 +18,7 @@
         <module>Template-Pattren</module>
         <module>Facade-Pattren</module>
         <module>Builder-Pattren</module>
+        <module>Observe-Pattern</module>
     </modules>
 
     <dependencies>
