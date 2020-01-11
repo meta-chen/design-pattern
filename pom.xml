@@ -20,6 +20,7 @@
         <module>Builder-Pattren</module>
         <module>Observe-Pattern</module>
         <module>Abstract-Factory-Pattern</module>
+        <module>State-Pattern</module>
     </modules>
 
     <dependencies>
