@@ -19,6 +19,7 @@
         <module>Facade-Pattren</module>
         <module>Builder-Pattren</module>
         <module>Observe-Pattern</module>
+        <module>Abstract-Factory-Pattern</module>
     </modules>
 
     <dependencies>
